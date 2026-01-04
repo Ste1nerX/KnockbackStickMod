@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "knockbackstick",
+  "version": "${version}",
+  "name": "Knockback Stick Mod",
+  "description": "Добавляет палочку, которая откидывает игроков на 50 блоков!",
+  "authors": [
+    "YourName"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/knockbackstick/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.knockbackstick.KnockbackStickMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

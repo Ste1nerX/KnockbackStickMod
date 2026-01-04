@@ -1,0 +1,21 @@
+cat > .gitignore << 'EOF'
+# Gradle / build
+/.gradle
+/build/
+/out/
+tmp/
+run/
+
+# IDE
+/.idea
+*.iml
+/.vscode
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / local properties
+gradle.properties
+local.properties
+EOF
